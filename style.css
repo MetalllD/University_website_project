@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container-fluid{
+    margin:0;
+}
+
+
+span{
+    text-align:right;
+    font-weight:400;
+    margin-right:0;
+    font-size:10px;
+}
+
+
+.logo img{
+    width:50%;
+}
+
+.Menu{
+    background-color: rgb(12, 12, 95);
+}
+
+.nav-item{
+    margin-left:20px;
+}
+.Menu a{
+    color:#fff;
+}
+
+.Menu a:hover{
+    color:rgb(119, 166, 236);
+    font-weight:600;
+} 
+
+
+.showcase-left img{
+    width:auto;
+    height:80vh;
+}
+
+.showcase-right {
+  font-size:20px;
+  padding:30px;
+}
+
+.showcase-right h1{
+    overflow-y: hidden;
+}
+
+.show-btn{
+    background-color:rgb(12, 12, 95) ;
+}
+.news1{
+    background-color: rgb(0, 0, 0);
+    height:40vh;
+    color:#fff;
+    font-size:30px;
+    padding:40px;
+}
+
+.news2{
+    background-color: rgb(34, 34, 34);
+    height:40vh;
+    color:#fff;
+    font-size:30px;
+    padding:40px;
+}
+
+.news3{
+    background-color: rgb(0, 0, 0);
+    height:50vh;
+    color:#fff;
+    font-size:30px;
+    padding:40px;
+    float:right;
+}
+
+.news4{
+    background-color: rgb(44, 32, 58);
+    height:40vh;
+    color:#fff;
+    font-size:30px;
+    padding:40px;
+    float:right;
+}
+
+.header1{
+    margin-bottom: 40px;
+    margin-left:10px;
+    color:#fff;
+}
+
+.news-btn{
+    margin-top:30px;
+    margin-right:0px;
+    margin-left:1090px;
+}
+
+.news{
+    background-color: rgb(17, 17, 78);
+    padding:40px;
+}
+
+.courses{
+    padding:50px;
+    background-color: rgb(0,0,0,0.5);
+    padding-bottom:150px;
+}
+
+.course1{
+    font-size:30px;
+}
+
+.course2{
+    font-size:30px;
+}
+
+.course3{
+    font-size:30px;
+}
+
+
+.course1 p{
+    font-size:15px;
+    margin-top:20px;
+    color:rgb(212, 207, 207);
+}
+
+.course2 p{
+    font-size:15px;
+    margin-top:20px;
+    color:rgb(212, 207, 207);
+}
+
+.course3 p{
+    font-size:15px;
+    margin-top:20px;
+    color:rgb(212, 207, 207);
+}
+
+.overlay{
+    
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header2{
+    margin-bottom:20px;
+    margin-left:-20px;
+    color:rgb(255, 255, 255);
+}
+
+.card-deck{
+    padding:10px;
+    margin-top:-10px;
+}
+
+.btn-course{
+    color:#fff;
+    float:right;
+    margin-top:20px;
+}
+
+.btn-course:hover{
+    color:rgb(106, 114, 228);
+   
+}
+
+footer{
+    background-color: rgb(17, 17, 78);
+    height:50vh;
+    padding:40px;
+    color:#fff;
+    font-size:20px;
+}
+
+footer h1{
+    margin-bottom:30px;
+}
+
+footer a{
+   color:#fff;
+   margin-left:10px;
+   font-size:15px;
+}
+
+footer a:hover{
+    color:rgb(107, 180, 248);
+    text-decoration: none;
+   
+ }
+
+
+/*Registerpage*/
+
+.register{
+    padding:40px;
+   
+    background-size: cover;
+    background-origin: initial;
+}
+
+
+
+form{
+    background-color: rgb(17, 17, 78,0.7);
+    color:#fff;
+    padding:40px;
+    border-radius: 20px;
+    margin:50px;
+   
+}
+
+.form{
+    background-image: url("back.jpg");
+}
+
+.form-conrol{
+    margin:10px;
+}
+
+.reg-btn{
+    margin-top:30px;
+    width:100%;
+    background-color: rgb(17, 17, 78);
+}
+
+.instruction{
+    height:inherit;
+    background-color:rgb(17, 17, 78) ;
+    padding:40px;
+    color:#fff;
+    font-size:30px;
+}
+
+.instruction p{
+    padding:20px;
+    font-size:20px;
+}
+/*courses page */
+
+.coursesPage{
+    padding:100px;
+}
+
+.coursesPage div{
+    margin-top:40px;
+}
+
+.coursesPage h1{
+
+    color:#fff;
+}
+
+.course1{
+
+    padding:40px;
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+}
+
+.course2{
+    padding:40px;
+    background-color: rgb(20, 13, 58);
+    color:#fff;
+}
+
+.course3{
+    padding:40px;
+    background-color: rgb(14, 36, 51);
+    color:#fff;
+}
+
+/*contact us*/
+.contact{
+    padding:40px;
+    background-size: cover;
+    background-origin: initial;
+}
+
+form{
+    background-color: rgba(63, 63, 155, 0.9);
+    color:#fff;
+    padding:40px;
+    border-radius: 20px;
+    margin:50px;
+}
+
+
+.form{
+    background-image: url("back2.png");
+}
+
+.form-conrol{
+    margin:10px;
+}
